@@ -1,44 +1,24 @@
-## **Project description**
+## **Project description:**
 
-Historical data on game sales, user and expert ratings, genres and platforms (e.g. Xbox or PlayStation) are available from open sources. 
-You need to identify patterns that determine the success of a game. This will allow to bet on a potentially popular product and plan advertising campaigns.
+Historical data on game sales, user and expert ratings, genres and platforms (e.g. Xbox or PlayStation) were provided. 
+We needed to identify patterns that determine the success of a game. This will allow to bet on a potentially popular product and plan advertising campaigns for the shops in particular area.
+Additionally we need to create customer profiles for NA, EU and JP regions to identify sale strategies in the regions based on customer journey.
+Hypothesis was suggested that average user ratings for Xbox One and PC platforms are the same and average user ratings for Action and Sports genres are different and we need to statistically prove or disprove it.
 
-Project is made with **Python** and in **Jupyter Notebook** format.
+## **Project timeline:**
 
-<hr>
+* Data was thoroughly checked for missing items, outliner and other irregularities that can affect the result. Additionally data types were corrected.
+* EDA was performed to understand data influence on sales and if there are any platform specifics.
+* Customer profile was created for each region based on data to identify preferences
+* Games ratings impact on sales was checked
+* Hypotheses were tested to check if they are correct or not
+* Summary was made for the business based on the data.
 
-### **Main task**
+## **Project result:**
 
-Perform full exploratory data analysis, clear the data and check it for missing data or outliners. 
-Check what parameters are affecting game sales and create customer frofiles for NA, EU and JP to identify sale strategies in the regions.
-Check if average user ratings for Xbox One and PC platforms are the same and average user ratings for Action and Sports genres are different.
+Business needed to know which product to bet on to get the maximum profit? Here are the conclusions we came to after analyzing the data provided:
 
-### **Data description**
-
-Historical data on game sales, user and expert ratings, genres and platforms (e.g. Xbox or PlayStation) are available from open sources
-
-**games.csv** — full data about the apartments characteristics and sell price
-
-<ul>
-<li><i>Name — game name</i></li>
-<li><i>Platform — platform</i></li>
-<li><i>Year_of_Release — year of release</i></li>
-<li><i>Genre — game genre</i></li>
-<li><i>NA_sales — sales in North America (millions of copies sold)</i></li>
-<li><i>EU_sales — sales in Europe (millions of copies sold)</i></li>
-<li><i>JP_sales — sales in Japan (millions of copies sold)</i></li>
-<li><i>Other_sales — sales in other countries (millions of copies sold)</i></li>
-<li><i>Critic_Score — critics' score (maximum 100)</i></li>
-<li><i>User_Score — user score (maximum 10)</i></li>
-<li><i>Rating — rating from the ESRB (Entertainment Software Rating Board)</i></li>
-</ul>
-
-### **Project timeline:**
-
-* Data initial preparation for EDA
-* EDA and data preprocessing.
-* Create a user profile for each region.
-* Test the hypotheses.
-* Make a summary for the business based on your data.
-
-<hr>
+* It is better to focus on promoting games with critic and user ratings of around 7-8 points, as such games have a higher chance of selling well.
+* For North America region preference should be given to games of the Action, Shooter or Sports genres. About 40% of the assortment should be for current Microsoft consoles.
+* For European Union region preference should be given also to Action, Shooter or Sports genres. About 50% of the assortment should be for current Sony consoles.
+* For Japan region preference should be given to games of the RPG or Action genres. About 60% of the assortment should be for current Nintendo consoles.
